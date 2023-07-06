@@ -1,0 +1,287 @@
+
+#tituloI{
+    font-family: 'Poppins';
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.input-login{
+    color: black;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: #9494941e;
+    outline: none;
+    height: 40px;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: bold;
+    font-size: 16px;
+}
+
+i{
+
+}
+
+.btn-login{
+    margin-top: 20px;
+    margin-left: 95px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    width: 150px;
+    border-radius: 10px;
+    color: #fff;
+    background: #4d6bbe;
+    height: 30px;
+    font-size: 16px;
+}
+
+.btn-login:hover{
+    cursor: pointer;
+    background-color: rgb(218, 80, 230);
+}
+
+.btn-register{
+    margin-left: 120px;
+    margin-top: 10px;
+    display: block;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: #fff;
+    background: #e2535a;
+    height: 30px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
+
+.btn-register:hover{
+    opacity: 1;
+    cursor: pointer;
+    background-color: rgb(179, 172, 172);
+}
+
+.ventana-inicioSesion {
+    background: rgba(255, 255, 255, 0.85);
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 999;
+    transition: background .6s;
+    display:flex;
+}
+
+.ventana-inicioSesion .content {
+    box-shadow: 9px 9px 16px rgba(163,177,198,0.6),
+    -9px -9px 16px rgba(163,177,196,0.6);
+    border-radius: 10px;
+    box-sizing: content-box;
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 300px;
+    min-width: 320px !important;
+    overflow: hidden;
+    position: relative;
+    height: 75%;
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.3rem;
+}
+.login-data{
+    margin-top: 100px;
+}
+
+.a-ref{
+
+    width: 100px;
+    padding: 5px;
+    margin-left: 120px;
+    border-radius: 12px;
+    font-family: 'Poppins';
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background: #e2535a;
+}
+
+.a-ref:hover{
+    cursor: pointer;
+    background: #919191;
+}
+
+.a-ref2{
+    padding: 5px;
+    margin-left: 130px;
+    border-radius: 12px;
+    font-family: 'Poppins';
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background: #8e3e91;
+}
+
+.a-ref2:hover{
+    cursor: pointer;
+    background: #6383b3;
+}
+
+
+.productos{
+    border-radius: 12px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+.titulo{
+    color: black;
+    font-family: 'Poppins';
+    margin-top: 100px;
+    margin-left: 550px;
+
+}
+.content-producto{
+    display: flex;
+    border-radius: 12px;
+    border: 2px solid #6498c967;
+    margin-bottom: 20px;
+}
+
+.content-descripcionP{
+
+   display: flex;
+}
+
+.content-valoresP{
+    margin-top: 20px;
+    display: block;
+}
+
+.content-botonesP{
+    margin-top: 50px;
+}
+
+
+.producto-nombre{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: 'Poppins';
+    text-align: center;
+    border: none ;
+    outline: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+    margin-left: 20px;
+}
+
+.producto-desc{
+    margin-top: 50px;
+    margin-left: -250px;
+    width: 600px;
+    display: block;
+    border: none;
+    outline: none;
+
+}
+
+.producto-cantidad{
+    font-family: 'Poppins';
+    display: inline;
+    text-align: center;
+    border:none;
+    outline: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+    margin-left: 20px;
+}
+
+.producto-precio{
+    font-family: 'Poppins';
+    display: inline;
+    text-align: center;
+    border:none;
+    outline: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+    margin-left: 20px;
+}
+
+.producto-valor{
+    font-family: 'Poppins';
+    display: inline;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+    margin-left: 20px;
+}
+
+
+.btn_editar{
+
+    color: white;
+    width: 125px;
+    height: 30px;
+    margin-right: 40px;
+    border-radius: 12px;
+    display: block;
+    border: none;
+    outline: none;
+    background: #53b9e2;
+}
+
+
+.btn_editar:hover{
+    cursor: pointer;
+    background: #9d9e9e;
+}
+
+.btn_eliminar{
+    color: white;
+    width: 125px;
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 40px;
+    border-radius: 12px;
+    display: block;
+    border: none;
+    outline: none;
+    background: #e2535a;
+}
+
+
+.btn_eliminar:hover{
+    cursor: pointer;
+    background: #a3a3a388;
+}
+
+p{
+    font-size: 14px;
+    font-family: 'Poppins';
+
+}
+
+.idP{
+    color: white;
+    font-size: 2px;
+}
+
+
+.img-Producto:hover{
+    cursor: pointer;
+}
